@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Supritha Maiya · About</title>
+<meta name="description" content="Supritha Maiya, Senior Software Engineer specializing in backend systems. Melbourne, Australia.">
+<meta name="theme-color" content="#ededec">
+<script>
+(function(){
+  try{
+    var t = localStorage.getItem('theme-preference');
+    if(t === 'light' || t === 'dark'){ document.documentElement.setAttribute('data-theme', t); }
+  }catch(e){}
+})();
+</script>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main>
+
+  <nav class="tabs">
+    <div class="tabs-links">
+      <a href="./index.html" class="current">About</a>
+      <a href="./cv.html">CV</a>
+    </div>
+    <button id="theme-toggle" class="theme-toggle" aria-label="Toggle color theme" aria-pressed="false">
+      <span class="theme-toggle__track">
+        <svg class="theme-toggle__icon theme-toggle__icon--sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"/></svg>
+        <svg class="theme-toggle__icon theme-toggle__icon--moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79Z"/></svg>
+        <span class="theme-toggle__knob"></span>
+      </span>
+    </button>
+  </nav>
+
+  <header class="hero">
+    <div class="hero-inner">
+      <div class="hero-text">
+        <h1>Supritha Maiya</h1>
+        <p class="role">Senior Software Engineer, Backend Systems</p>
+        <div class="meta">
+          <span class="meta-item"><svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0Z"/><circle cx="12" cy="10" r="3"/></svg>Melbourne, Australia</span>
+        </div>
+        <div class="contact-buttons">
+          <a class="contact-btn" href="mailto:suprithamaiya.au@gmail.com"><svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-10 5L2 7"/></svg>Email</a>
+          <a class="contact-btn" href="https://www.linkedin.com/in/supritha-maiya" target="_blank" rel="noopener"><svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6Z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>LinkedIn</a>
+          <a class="contact-btn" href="https://github.com/suprithamaiya" target="_blank" rel="noopener"><svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>GitHub</a>
+        </div>
+      </div>
+      <img class="portrait" src="./photo.jpg" alt="Supritha Maiya">
+    </div>
+  </header>
+
+  <section id="about" class="card-section">
+    <h2>About</h2>
+    <p>I'm a backend engineer with seven years of experience building scalable systems for enterprise SaaS platforms. Most recently, I built the customer onboarding microservice for Synopsys' Polaris application security platform, now Black Duck, serving Fortune 500 clients globally. I care about reliable service-to-service communication, thorough test coverage, and code that holds up under real production load.</p>
+    <p>I recently completed a Master of Business in Data Analytics at Monash University, which sharpened how I think about the business impact of backend decisions. I'm currently looking for my next role as a Senior Backend Engineer, based in Melbourne or open to relocating across Australia.</p>
+    <div class="pills">
+      <span class="pill">Open to relocation across Australia</span>
+      <span class="pill">485 Graduate Visa, full working rights in Australia</span>
+      <span class="pill">Open to full-time roles</span>
+      <span class="pill">Open to contract roles</span>
+    </div>
+  </section>
+
+  <section id="focus" class="card-section">
+    <h2>Focus</h2>
+    <dl class="skills-grid">
+      <div class="skill-row">
+        <dt>Roles</dt>
+        <dd>Senior Backend Engineer, Senior Software Engineer, Senior Java Engineer</dd>
+      </div>
+      <div class="skill-row">
+        <dt>Stack</dt>
+        <dd>Java, Spring Boot, Microservices, REST APIs, Keycloak/OAuth2/JWT, RabbitMQ, PostgreSQL, Docker, Kubernetes</dd>
+      </div>
+      <div class="skill-row">
+        <dt>Domains</dt>
+        <dd>Enterprise SaaS platforms, application security tooling, distributed systems, quality &amp; test automation</dd>
+      </div>
+    </dl>
+  </section>
+
+</main>
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+  var root = document.documentElement;
+  var btn = document.getElementById('theme-toggle');
+  if (!btn) return;
+
+  function isDark() {
+    var attr = root.getAttribute('data-theme');
+    if (attr) return attr === 'dark';
+    return window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+  }
+
+  function sync() {
+    btn.setAttribute('aria-pressed', String(isDark()));
+  }
+
+  sync();
+
+  btn.addEventListener('click', function () {
+    var next = isDark() ? 'light' : 'dark';
+    root.setAttribute('data-theme', next);
+    try { localStorage.setItem('theme-preference', next); } catch (e) {}
+    sync();
+  });
+});
+</script>
+</body>
+</html>

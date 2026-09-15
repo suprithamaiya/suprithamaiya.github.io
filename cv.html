@@ -1,0 +1,184 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Supritha Maiya · CV</title>
+<meta name="description" content="Supritha Maiya's CV: experience, skills, and education.">
+<meta name="theme-color" content="#ededec">
+<script>
+(function(){
+  try{
+    var t = localStorage.getItem('theme-preference');
+    if(t === 'light' || t === 'dark'){ document.documentElement.setAttribute('data-theme', t); }
+  }catch(e){}
+})();
+</script>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main>
+
+  <nav class="tabs">
+    <div class="tabs-links">
+      <a href="./index.html">About</a>
+      <a href="./cv.html" class="current">CV</a>
+    </div>
+    <button id="theme-toggle" class="theme-toggle" aria-label="Toggle color theme" aria-pressed="false">
+      <span class="theme-toggle__track">
+        <svg class="theme-toggle__icon theme-toggle__icon--sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"/></svg>
+        <svg class="theme-toggle__icon theme-toggle__icon--moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79Z"/></svg>
+        <span class="theme-toggle__knob"></span>
+      </span>
+    </button>
+  </nav>
+
+  <header class="hero">
+    <h1>Supritha Maiya</h1>
+    <p class="role">Senior Software Engineer, Backend Systems</p>
+  </header>
+
+  <a class="cv-link" href="./resume.pdf" target="_blank" rel="noopener">Download résumé (PDF) ↓</a>
+
+  <div class="highlights">
+    <div><span class="num">7 yrs</span><span class="label">backend engineering</span></div>
+    <div><span class="num">Fortune 500</span><span class="label">enterprise clients served</span></div>
+    <div><span class="num">85%+</span><span class="label">test coverage enforced as a merge gate</span></div>
+    <div><span class="num">4–6</span><span class="label">engineers &amp; interns mentored</span></div>
+  </div>
+
+  <section id="experience">
+    <h2>Experience</h2>
+
+    <div class="entry">
+      <div class="entry-head">
+        <div class="entry-title">Senior Software Engineer <span class="entry-org">· Synopsys India Pvt Ltd, Bangalore</span></div>
+        <div class="entry-date">Feb 2023 – Jul 2024</div>
+      </div>
+      <ul>
+        <li>Built the customer onboarding microservice for the Polaris application security platform (now Black Duck), serving Fortune 500 enterprise clients globally.</li>
+        <li>Delivered multiple production features end-to-end, participating in MVP scoping and enforcing an 85%+ unit and integration test coverage gate on all pull requests.</li>
+        <li>Reviewed proposed architecture in cross-functional design calls, evaluating trade-offs and surfacing implementation risks and edge cases before build-out.</li>
+        <li>Collaborated with cross-functional teams and stakeholders to keep technical execution aligned with delivery timelines.</li>
+      </ul>
+      <div class="stack">
+        <span>Java</span><span>Spring Boot</span><span>Microservices</span><span>REST APIs</span><span>RabbitMQ</span><span>PostgreSQL</span>
+      </div>
+    </div>
+
+    <div class="entry">
+      <div class="entry-head">
+        <div class="entry-title">Software Engineer <span class="entry-org">· Synopsys India Pvt Ltd, Bangalore</span></div>
+        <div class="entry-date">Jul 2019 – Jan 2023</div>
+      </div>
+      <ul>
+        <li>Contributed to early-stage development of the Polaris application security platform prior to MVP launch.</li>
+        <li>Automated extraction and processing of security assessment reports for 20+ enterprise clients across multiple risk rating frameworks using Apache APIs, significantly reducing manual reporting effort.</li>
+        <li>Designed and maintained event-driven messaging flows using RabbitMQ to handle user lifecycle events, enabling reliable inter-service communication across a distributed microservice platform.</li>
+        <li>Contributed to migrating legacy monolithic products to a microservices architecture.</li>
+        <li>Implemented row-level security for sensitive tables and verified rollback functionality to maintain product integrity.</li>
+      </ul>
+      <div class="stack">
+        <span>Java</span><span>Spring Boot</span><span>Hibernate</span><span>RabbitMQ</span><span>Microservices</span><span>PostgreSQL</span>
+      </div>
+    </div>
+
+    <div class="entry">
+      <div class="entry-head">
+        <div class="entry-title">Software Engineer <span class="entry-org">· Cigital Asia Pvt Ltd, Bangalore</span></div>
+        <div class="entry-date">Aug 2017 – Jun 2019</div>
+      </div>
+      <ul>
+        <li>Automated REST endpoints and UI functionality using REST Assured and Selenium, accelerating testing cycles.</li>
+        <li>Triaged automation results to identify critical issues early, reducing release risk and improving product quality.</li>
+        <li>Monitored CI/CD pipelines to ensure consistent test coverage and smooth deployments.</li>
+        <li>Mentored and onboarded 4–6 engineers and interns on automation frameworks, business workflows, and testing best practices.</li>
+        <li>Participated in critical production releases, including UAT testing and on-call support during release phases.</li>
+      </ul>
+      <div class="stack">
+        <span>Java</span><span>REST Assured</span><span>Selenium</span><span>CI/CD</span>
+      </div>
+    </div>
+  </section>
+
+  <section id="skills" class="card-section">
+    <h2>Skills</h2>
+    <dl class="skills-grid">
+      <div class="skill-row">
+        <dt>Languages</dt>
+        <dd>Java</dd>
+      </div>
+      <div class="skill-row">
+        <dt>Backend &amp; Frameworks</dt>
+        <dd>Spring Boot, Hibernate, REST APIs, Microservices, Maven</dd>
+      </div>
+      <div class="skill-row">
+        <dt>Security</dt>
+        <dd>Keycloak, Spring Security, OAuth 2.0, JWT, RBAC</dd>
+      </div>
+      <div class="skill-row">
+        <dt>Data &amp; Messaging</dt>
+        <dd>PostgreSQL, MySQL, RabbitMQ, Liquibase, JSON, XML, Protobuf</dd>
+      </div>
+      <div class="skill-row">
+        <dt>Testing</dt>
+        <dd>JUnit, Mockito, REST Assured, Selenium</dd>
+      </div>
+      <div class="skill-row">
+        <dt>DevOps &amp; Tools</dt>
+        <dd>Docker, Kubernetes, Jenkins, Git, GitLab, Datadog, Harness</dd>
+      </div>
+      <div class="skill-row">
+        <dt>Collaboration</dt>
+        <dd>Jira, Postman, Swagger, Confluence</dd>
+      </div>
+    </dl>
+  </section>
+
+  <section id="education" class="card-section">
+    <h2>Education</h2>
+
+    <div class="entry">
+      <div class="entry-head">
+        <div class="entry-title">Master of Business, Data Analytics for Business <span class="entry-org">· Monash University, Melbourne</span></div>
+        <div class="entry-date">Jul 2024 – Jul 2026</div>
+      </div>
+    </div>
+
+    <div class="entry">
+      <div class="entry-head">
+        <div class="entry-title">Bachelor of Engineering, Information Science and Engineering <span class="entry-org">· Visvesvaraya Technological University, Bangalore</span></div>
+        <div class="entry-date">Aug 2013 – Jul 2017</div>
+      </div>
+    </div>
+  </section>
+
+</main>
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+  var root = document.documentElement;
+  var btn = document.getElementById('theme-toggle');
+  if (!btn) return;
+
+  function isDark() {
+    var attr = root.getAttribute('data-theme');
+    if (attr) return attr === 'dark';
+    return window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+  }
+
+  function sync() {
+    btn.setAttribute('aria-pressed', String(isDark()));
+  }
+
+  sync();
+
+  btn.addEventListener('click', function () {
+    var next = isDark() ? 'light' : 'dark';
+    root.setAttribute('data-theme', next);
+    try { localStorage.setItem('theme-preference', next); } catch (e) {}
+    sync();
+  });
+});
+</script>
+</body>
+</html>
