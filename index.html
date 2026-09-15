@@ -1,0 +1,292 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Supritha Maiya — Senior Software Engineer</title>
+<meta name="description" content="Supritha Maiya — Senior Software Engineer, backend systems. Melbourne, Australia.">
+<meta name="theme-color" content="#fbfaf8">
+<style>
+  :root{
+    --bg: #fbfaf8;
+    --fg: #1b1a17;
+    --muted: #6b665c;
+    --line: #e4e0d8;
+    --accent: #8a5a2b;
+    --tag-bg: #f1ede4;
+    --tag-fg: #4a4638;
+    --max: 640px;
+  }
+  @media (prefers-color-scheme: dark){
+    :root{
+      --bg: #14130f;
+      --fg: #ece8df;
+      --muted: #a39d8e;
+      --line: #322f28;
+      --accent: #d3a26a;
+      --tag-bg: #221f19;
+      --tag-fg: #cfc9ba;
+    }
+  }
+  *{ box-sizing: border-box; }
+  html{ -webkit-text-size-adjust: 100%; }
+  body{
+    margin: 0;
+    padding: 4.5rem 1.5rem 6rem;
+    background: var(--bg);
+    color: var(--fg);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    line-height: 1.55;
+    -webkit-font-smoothing: antialiased;
+  }
+  main{ max-width: var(--max); margin: 0 auto; }
+
+  header.hero{ margin-bottom: 3.25rem; }
+  h1{
+    font-size: 2.1rem;
+    font-weight: 600;
+    letter-spacing: -0.01em;
+    margin: 0 0 0.35rem;
+  }
+  .role{ font-size: 1.05rem; color: var(--muted); margin: 0 0 1.1rem; }
+  .meta{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.35rem 0.9rem;
+    font-size: 0.92rem;
+    color: var(--muted);
+    margin-bottom: 1.1rem;
+  }
+  .meta span{ white-space: nowrap; }
+  .links{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.35rem 1.1rem;
+    font-size: 0.92rem;
+    margin-bottom: 1.1rem;
+  }
+  a{ color: var(--fg); text-decoration-color: var(--line); text-underline-offset: 3px; }
+  a:hover{ color: var(--accent); text-decoration-color: var(--accent); }
+  .work-rights{
+    display: inline-block;
+    font-size: 0.82rem;
+    color: var(--tag-fg);
+    background: var(--tag-bg);
+    border: 1px solid var(--line);
+    border-radius: 999px;
+    padding: 0.3rem 0.75rem;
+  }
+
+  section{ margin-bottom: 3rem; }
+  h2{
+    font-size: 0.78rem;
+    font-weight: 700;
+    letter-spacing: 0.11em;
+    text-transform: uppercase;
+    color: var(--muted);
+    margin: 0 0 1.1rem;
+    padding-bottom: 0.6rem;
+    border-bottom: 1px solid var(--line);
+  }
+
+  .entry{ margin-bottom: 1.9rem; }
+  .entry:last-child{ margin-bottom: 0; }
+  .entry-head{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: 1rem;
+    flex-wrap: wrap;
+    margin-bottom: 0.15rem;
+  }
+  .entry-title{ font-weight: 600; font-size: 1rem; }
+  .entry-org{ color: var(--muted); font-weight: 400; }
+  .entry-date{
+    font-size: 0.85rem;
+    color: var(--muted);
+    white-space: nowrap;
+  }
+  .entry ul{
+    margin: 0.55rem 0 0.7rem;
+    padding-left: 1.15rem;
+  }
+  .entry li{ margin-bottom: 0.4rem; font-size: 0.95rem; }
+  .entry li::marker{ color: var(--muted); }
+  .stack{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.4rem;
+    margin-top: 0.6rem;
+  }
+  .stack span{
+    font-size: 0.78rem;
+    color: var(--tag-fg);
+    background: var(--tag-bg);
+    border-radius: 5px;
+    padding: 0.2rem 0.55rem;
+  }
+
+  .skills-grid{ display: grid; gap: 0.9rem; }
+  .skill-row{
+    display: grid;
+    grid-template-columns: 150px 1fr;
+    gap: 1rem;
+    font-size: 0.93rem;
+  }
+  .skill-row dt{ color: var(--muted); font-weight: 500; }
+  .skill-row dd{ margin: 0; }
+  @media (max-width: 520px){
+    .skill-row{ grid-template-columns: 1fr; gap: 0.2rem; }
+  }
+
+  footer{
+    margin-top: 4rem;
+    padding-top: 1.5rem;
+    border-top: 1px solid var(--line);
+    font-size: 0.85rem;
+    color: var(--muted);
+  }
+
+  @media print{
+    body{ padding: 0.5in; }
+    a{ color: var(--fg); text-decoration: none; }
+  }
+</style>
+</head>
+<body>
+<main>
+
+  <header class="hero">
+    <h1>Supritha Maiya</h1>
+    <p class="role">Senior Software Engineer — Backend Systems</p>
+    <div class="meta">
+      <span>Melbourne, Australia</span>
+      <span>Open to relocation across Australia</span>
+    </div>
+    <div class="links">
+      <a href="mailto:suprithamaiya.au@gmail.com">suprithamaiya.au@gmail.com</a>
+      <a href="https://www.linkedin.com/in/supritha-maiya" target="_blank" rel="noopener">LinkedIn</a>
+      <a href="https://github.com/suprithamaiya" target="_blank" rel="noopener">GitHub</a>
+      <a href="./resume.pdf" target="_blank" rel="noopener">Résumé (PDF)</a>
+    </div>
+    <span class="work-rights">485 Graduate Visa — full working rights in Australia</span>
+  </header>
+
+  <section id="about">
+    <h2>About</h2>
+    <p>Backend engineer with seven years building scalable, high-performance systems — most recently the customer onboarding microservice for Synopsys' Polaris platform (now Black Duck, a Gartner Magic Quadrant Leader in Application Security Testing), serving Fortune 500 clients globally. Recently completed a Master of Business (Data Analytics) at Monash University.</p>
+  </section>
+
+  <section id="experience">
+    <h2>Experience</h2>
+
+    <div class="entry">
+      <div class="entry-head">
+        <div class="entry-title">Senior Software Engineer <span class="entry-org">· Synopsys India Pvt Ltd, Bangalore</span></div>
+        <div class="entry-date">Feb 2023 – Jul 2024</div>
+      </div>
+      <ul>
+        <li>Designed and developed the customer onboarding microservice for the Polaris application security platform (now Black Duck), serving Fortune 500 enterprise clients globally.</li>
+        <li>Delivered multiple production features end-to-end, participating in MVP scoping and enforcing an 85%+ unit and integration test coverage gate on all pull requests.</li>
+        <li>Participated in architectural discussions, evaluating trade-offs and defining design solutions for scalable, maintainable systems.</li>
+        <li>Collaborated with cross-functional teams and stakeholders to keep technical execution aligned with delivery timelines.</li>
+      </ul>
+      <div class="stack">
+        <span>Java</span><span>Spring Boot</span><span>Microservices</span><span>REST APIs</span><span>RabbitMQ</span><span>PostgreSQL</span>
+      </div>
+    </div>
+
+    <div class="entry">
+      <div class="entry-head">
+        <div class="entry-title">Software Engineer <span class="entry-org">· Synopsys India Pvt Ltd, Bangalore</span></div>
+        <div class="entry-date">Jul 2019 – Jan 2023</div>
+      </div>
+      <ul>
+        <li>Contributed to early-stage development of the Polaris application security platform prior to MVP launch.</li>
+        <li>Automated extraction and processing of security assessment reports for 20+ enterprise clients across multiple risk rating frameworks using Apache APIs, significantly reducing manual reporting effort.</li>
+        <li>Designed and maintained event-driven messaging flows using RabbitMQ to handle user lifecycle events, enabling reliable inter-service communication across a distributed microservice platform.</li>
+        <li>Contributed to migrating legacy monolithic products to a microservices architecture.</li>
+        <li>Implemented row-level security for sensitive tables and verified rollback functionality to maintain product integrity.</li>
+      </ul>
+      <div class="stack">
+        <span>Java</span><span>Spring Boot</span><span>Hibernate</span><span>RabbitMQ</span><span>Microservices</span><span>PostgreSQL</span>
+      </div>
+    </div>
+
+    <div class="entry">
+      <div class="entry-head">
+        <div class="entry-title">Software Engineer <span class="entry-org">· Cigital Asia Pvt Ltd, Bangalore</span></div>
+        <div class="entry-date">Aug 2017 – Jun 2019</div>
+      </div>
+      <ul>
+        <li>Automated REST endpoints and UI functionality using REST Assured and Selenium, accelerating testing cycles.</li>
+        <li>Triaged automation results to identify critical issues early, reducing release risk and improving product quality.</li>
+        <li>Monitored CI/CD pipelines to ensure consistent test coverage and smooth deployments.</li>
+        <li>Mentored and onboarded 4–6 engineers and interns on automation frameworks, business workflows, and testing best practices.</li>
+        <li>Participated in critical production releases, including UAT testing and on-call support during release phases.</li>
+      </ul>
+      <div class="stack">
+        <span>Java</span><span>REST Assured</span><span>Selenium</span><span>CI/CD</span>
+      </div>
+    </div>
+  </section>
+
+  <section id="skills">
+    <h2>Skills</h2>
+    <dl class="skills-grid">
+      <div class="skill-row">
+        <dt>Languages</dt>
+        <dd>Java</dd>
+      </div>
+      <div class="skill-row">
+        <dt>Backend &amp; Frameworks</dt>
+        <dd>Spring Boot, Hibernate, REST APIs, Microservices, Maven</dd>
+      </div>
+      <div class="skill-row">
+        <dt>Security</dt>
+        <dd>Keycloak, Spring Security, OAuth 2.0, JWT, RBAC</dd>
+      </div>
+      <div class="skill-row">
+        <dt>Data &amp; Messaging</dt>
+        <dd>PostgreSQL, MySQL, RabbitMQ, Liquibase, JSON, XML, Protobuf</dd>
+      </div>
+      <div class="skill-row">
+        <dt>Testing</dt>
+        <dd>JUnit, Mockito, REST Assured, Selenium</dd>
+      </div>
+      <div class="skill-row">
+        <dt>DevOps &amp; Tools</dt>
+        <dd>Docker, Kubernetes, Jenkins, Git, GitLab, Datadog, Harness</dd>
+      </div>
+      <div class="skill-row">
+        <dt>Collaboration</dt>
+        <dd>Jira, Postman, Swagger, Confluence</dd>
+      </div>
+    </dl>
+  </section>
+
+  <section id="education">
+    <h2>Education</h2>
+
+    <div class="entry">
+      <div class="entry-head">
+        <div class="entry-title">Master of Business, Data Analytics for Business <span class="entry-org">· Monash University, Melbourne</span></div>
+        <div class="entry-date">Jul 2024 – Jul 2026</div>
+      </div>
+    </div>
+
+    <div class="entry">
+      <div class="entry-head">
+        <div class="entry-title">Bachelor of Engineering, Information Science and Engineering <span class="entry-org">· Visvesvaraya Technological University, Bangalore</span></div>
+        <div class="entry-date">Aug 2013 – Jul 2017</div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>Supritha Maiya · Melbourne, Australia · <a href="mailto:suprithamaiya.au@gmail.com">suprithamaiya.au@gmail.com</a></p>
+  </footer>
+
+</main>
+</body>
+</html>
