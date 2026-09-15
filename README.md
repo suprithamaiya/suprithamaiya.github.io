@@ -1,1 +1,0 @@
-# suprithamaiya.github.io
